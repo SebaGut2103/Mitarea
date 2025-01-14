@@ -50,6 +50,28 @@ section{
     color: white;
     background-color: #151297;
 }
+ul {
+    padding: 0;
+  }
+  
+  li {
+    margin: 0.5em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #223c52;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    width: 10vw;
+    font-size: 1.3rem;
+}
+  
+  li div {
+    display: flex;
+    height: 2rem;
+    gap: 0.5em;
+
+  }
 @media (min-width:768px){
     section{
         display: flex;
@@ -59,9 +81,32 @@ section{
         font-size: 3.5rem;
     }
     #Bnt #button{
-        width: 10vw;
+        width: 15vw;
     }
 } 
+
+ul {
+    padding: 0;
+  }
+  
+  li {
+    margin: 0.3em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #223c52;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    color: white;
+    width:200px;
+  }
+  
+  li div {
+    display: flex;
+    height: 1rem;
+    justify-content: center;
+  }
+  
 @media (max-width: 768px){
     h1{
         font-size: 2em;
@@ -85,4 +130,5 @@ section{
         padding: 1%;
         border-color: 0 0 50px rgb(0, 0, 0);
     }
+    
 }
